@@ -27,7 +27,6 @@ footer {
 }
 
 .max-width {
-  background: rgba(0, 0, 0, 0.2);
   /* 최대 너비 1224px, 뷰포트 가로너비가 1224px 이하일때 좌우 5vw의 여백 주기 */
   width: min(calc(var(--max-width) * 1rem), calc(100% - 10vw));
   height: 100%;
