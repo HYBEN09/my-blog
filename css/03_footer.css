@@ -1,0 +1,27 @@
+footer {
+  background: var(--c-light-gray);
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-text-light);
+}
+
+footer strong {
+  font-weight: 700;
+}
+
+.btn-top {
+  background: rgb(var(--rgb-main)) url(../img/arrow_top.svg) no-repeat 50% 0 /
+    2em;
+  box-sizing: border-box;
+  color: rgb(var(--rgb-light));
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  padding-top: 2rem;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
