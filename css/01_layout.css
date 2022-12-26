@@ -15,12 +15,6 @@ https://notes.zander.wtf/ios-safari-height-bug
   }
 }
 
-main {
-  background: slateblue;
-  flex-grow: 1;
-  padding-top: 5em;
-}
-
 footer {
   background: green;
   height: 5em;
